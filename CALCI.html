@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CALCULATOR</title>
+        <link rel="stylesheet" type="text/css" href="CAL.css">
+    </head>
+    <body>
+        <h1 align="center" style="color:blue">Calculator</h1>
+        <center>
+        <div id="calc">
+            <input type="text" id="BOX" style="width:285px;height:60px;margin-left: 55px;margin-right: 20px;">
+            <div id="buttons">
+                <ul>
+                    <li><input type="button" class="BUT" value="1" onclick="input('1')"></li>
+                    <li><input type="button" class="BUT" value="2" onclick="input('2')"></li>
+                    <li><input type="button" class="BUT" value="3" onclick="input('3')"></li>
+                    <li><input type="button" class="BUT" value="+" onclick="input('+')"></li>
+                </ul>
+
+                <ul>
+                    <li><input type="button" class="BUT" value="4" onclick="input('4')"></li>
+                    <li><input type="button" class="BUT" value="5" onclick="input('5')"></li>
+                    <li><input type="button" class="BUT" value="6" onclick="input('6')"></li>
+                    <li><input type="button" class="BUT" value="-" onclick="input('-')"></li>
+                </ul>
+
+                <ul>
+                    <li><input type="button" class="BUT" value="7" onclick="input('7')"></li>
+                    <li><input type="button" class="BUT" value="8" onclick="input('8')"></li>
+                    <li><input type="button" class="BUT" value="9" onclick="input('9')"></li>
+                    <li><input type="button" class="BUT" value="*" onclick="input('*')"></li>
+                </ul>
+
+                <ul>
+                    <li><input type="button" class="BUT" value="." onclick="input('.')"></li>
+                    <li><input type="button" class="BUT" value="0" onclick="input('0')"></li>
+                    <li><input type="button" class="BUT" value="=" onclick="calcu()"></li>
+                    <li><input type="button" class="BUT" value="/" onclick="input('/')"></li>
+                </ul>
+                <ul>
+                    <li><input type="button" class="BUT" value="CLEAR" onclick="clears();"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+            </div>
+
+        </div>
+        </center>
+        <script type="text/javascript" src="CALC.js"></script>
+    </body>
+</html>
