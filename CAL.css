@@ -1,7 +1,7 @@
 #calc{
     width:400px;
     height:500px;
-    background-color:blue;
+    background-color:aquamarine;
     border:5px solid red;
     padding:10px;
 }
@@ -16,5 +16,5 @@
 .BUT{
     width:70px;
     height:50px;
-    background-color: aquamarine;
+    background-color: blue;
 }
